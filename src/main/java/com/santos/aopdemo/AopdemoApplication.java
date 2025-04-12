@@ -22,7 +22,7 @@ public class AopdemoApplication {
 		return runner -> {
 
 //			demoTheBeforeAdvice(theAccountDAO, theMembershipDAO);
-			demoTheAfterReturningAdvice(theAccountDAO);;
+			demoTheAfterReturningAdvice(theAccountDAO);
 		};
 	}
 
